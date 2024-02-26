@@ -711,7 +711,7 @@
 		"culture": 1,
 		"production": 2,
 		"requiredTech": "Pottery",
-		"uniques": ["Provides [2] [Ceramics]","percentStatBonus": {"production": 100},"Destroyed when the city is captured"],
+		"uniques": ["Provides [2] [Ceramics]","Destroyed when the city is captured"],
 	},
 	{
 		"name": "Wainwright Shop",
