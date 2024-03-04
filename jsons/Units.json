@@ -1,5 +1,5 @@
 [
-  {
+  	{
 		"name": "Cruiser Submarine",
 		"unitType": "Submarine",
     "cost": 2000,
@@ -9,8 +9,8 @@
 		"requiredTech": "Advanced Submersibles",
     "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Oil]","Consumes [1] [Microchip]","Can carry [2] [Air] units","Can carry [2] [Missile] units"],
 		"upgradesTo": "Aircraft Carrier Submarine",		
-  },
-  {
+ 	},
+ 	{
 		"name": "Aircraft Carrier Submarine",
 		"unitType": "Submarine",
     "cost": 7500,
@@ -21,8 +21,8 @@
 	  	"interceptRange": 2,
     "uniques": ["Cannot be purchased","Consumes [1] [Uranium]","Consumes [1] [Titanium]","Consumes [2] [Oil]","Consumes [1] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [6] [Air] units","Can carry [4] [Missile] units","[+20]% chance to intercept air attacks"],
 		"upgradesTo": "Super Aircraft Carrier Submarine",	
-  },
-  {
+  	},
+  	{
 		"name": "Super Aircraft Carrier Submarine",
 		"unitType": "Submarine",
     		"cost": 15000,
@@ -31,8 +31,8 @@
 		"requiredTech": "Advanced Submersibles",
 	  	"interceptRange": 3,
     		"uniques":  ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Titanium]","Consumes [1] [Aluminum]","Consumes [1] [Robotic Parts]","Consumes [4] [Oil]","Consumes [2] [Microchip]","Consumes [1] [Electronic Circuit]","Can carry [10] [Air] units","Can carry [12] [Missile] units","[+80]% chance to intercept air attacks","Invisible to non-adjacent units","[3] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","May enter foreign tiles without open borders","Triggers the following global alert: [A Super Carrier has been constructed.]"],	
-  },
-  {
+  	},
+  	{
 		"name": "Aerial Carrier",
 		"unitType": "Aircraft Carrier",
     		"cost": 5000,
@@ -42,8 +42,8 @@
 		"requiredTech": "Stealth",
     		"uniques": ["Cannot be purchased","Consumes [2] [Uranium]","Consumes [1] [Aluminum]","Consumes [1] [Microchip]","Can carry [3] extra [Air] units","Can carry [4] [Missile] units","[+50]% chance to intercept air attacks","Can pass through impassable tiles","Can enter ice tiles","All tiles cost 1 movement","Can move after attacking"],
 		"upgradesTo": "Stealth Aerial Carrier",		
-  },
-{
+  	},
+	{
 		"name": "Stealth Aerial Carrier",
 		"unitType": "Aircraft Carrier",
     		"cost": 10000,
@@ -52,68 +52,8 @@
     		"rangedStrength": 60,
 		"requiredTech": "Stealth",
     		"uniques": ["Cannot be purchased","Consumes [4] [Uranium]","Consumes [2] [Aluminum]","Consumes [2] [Microchip]","Can carry [6] extra [Air] units","Can carry [10] [Missile] units","[+90]% chance to intercept air attacks","Invisible to non-adjacent units","[2] extra interceptions may be made per turn","Can pass through impassable tiles","Can enter ice tiles","All tiles cost 1 movement","May enter foreign tiles without open borders","Can move after attacking"],	
-  },
-  {
-		"name": "GDR Mk. I",
-		"unitType": "Armored",
-    		"cost": 1050,
-		"movement": 2,
-		"strength": 100,
-		"requiredTech": "Nuclear Fusion",
-		"attackSound": "gdrAttack",
-	  	"requiredResource": "Uranium",
-	  	"interceptRange": 1,
-    		"uniques": ["No defensive terrain bonus","Can carry [4] [Air] units","[+10]% chance to intercept air attacks"],
-		"upgradesTo": "GDR Mk. II",	
-  },
-  {
-		"name": "GDR Mk. II",
-		"unitType": "Armored",
-    		"cost": 1800,
-		"movement": 9,
-		"strength": 50,
-		"requiredTech": "Nuclear Fusion",
-		"attackSound": "gdrAttack",
-    		"uniques": ["Consumes [1] [Titanium]","No defensive terrain bonus","Can carry [1] [Missile] units","Can move after attacking","Unable to capture cities","Can pass through impassable tiles","Invisible to non-adjecent units"],
-		"upgradesTo": "GDR Mk. III",	
-  },
-  {
-		"name": "GDR Mk. III",
-		"unitType": "Armored",
-    		"cost": 1700,
-		"movement": 3,
-		"strength": 45,
-		"requiredTech": "Mechs",
-		"attackSound": "gdrAttack",
-	  	"requiredResource": "Uranium",
-	  	"interceptRange": 3,
-    		"uniques": ["[+90]% chance to intercept air attacks","[3] extra interceptions may be made per turn","[+150]% Damage when intercepting","Unable to capture cities"],
-		"upgradesTo": "GDR Mk. IV [Fortress]",	
-  },
-  {
-		"name": "GDR Mk. IV [Fortress]",
-		"unitType": "Armored",
-    		"cost": 7000,
-		"movement": 2,
-		"strength": 250,
-		"requiredTech": "Mechs",
-		"attackSound": "gdrAttack",
-	  	"interceptRange": 1,
-    		"uniques": ["Consumes [2] [Uranium]","Consumes [2] [Titanium]","Can carry [2] [Air] units","Can move after attacking","[+25]% chance to intercept air attacks","Cannot enter ocean tiles","No sight"],
-	  	"upgradesTo": "GDR Mk. V",
-	},
-  {
-		"name": "GDR Mk. V",
-		"unitType": "Armored",
-    		"cost": 10000,
-		"movement": 1,
-		"strength": 100,
-		"requiredTech": "Mechs",
-		"attackSound": "gdrAttack",
-	  	"interceptRange": 3,
-    		"uniques": ["Consumes [3] [Uranium]","Consumes [2] [Titanium]","Consumes [2] [Aluminum]","Consumes [1] [Steel]","Can carry [14] [Air] units","[+50]% chance to intercept air attacks","Cannot enter ocean tiles","No sight","Cannot attack","Unable to capture cities"],
-	},
-	 {
+  	},
+	{
 		"name": "Infantry Mech",
 		"unitType": "Gunpowder",
     		"cost": 250,
